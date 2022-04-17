@@ -1,0 +1,18 @@
+
+# Intermediates
+*.o
+*.bin
+*.pyc
+
+# Local
+NOTE*
+RESULT*
+TOOL*
+
+.vscode/*
+
+# enable_ccr
+
+enable_ccr/*
+!enable_ccr/Makefile
+!enable_ccr/enable_ccr.c
